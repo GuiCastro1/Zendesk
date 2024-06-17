@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Cadeira de Madeira Verão",
+        "price": 150,
+        "image": "IMG_produtos/Cadeira_bambu04.png"
+    },
+    {
+        "id": 2,
+        "name": "Cadeira de Madeira",
+        "price": 250,
+        "image": "IMG_produtos/Cadeira_bambu02.png"
+    },
+    {
+        "id": 3,
+        "name": "Cadeira de Madeira Verão",
+        "price": 190,
+        "image": "IMG_produtos/Cadeira_bambu03.png"
+    },
+    {
+        "id": 4,
+        "name": "Conjunto Poltrona Papel",
+        "price": 200,
+        "image": "IMG_produtos/Poltrona_papel_2.png"
+    },
+    {
+        "id": 5,
+        "name": "Cadeira Jornal",
+        "price": 210,
+        "image": "IMG_produtos/Cadeira_jornal.png"
+    },
+    {
+        "id": 6,
+        "name": "Sofás Papel",
+        "price": 500,
+        "image": "IMG_produtos/Poltrona_papel.png"
+    },
+    {
+        "id": 7,
+        "name": "Eco Mesa",
+        "price": 200,
+        "image": "IMG_produtos/Mesa_v_Quadrada.png"
+    },
+    {
+        "id": 8,
+        "name": "VerdeMesa",
+        "price": 200,
+        "image": "IMG_produtos/mesa_vidro_quadrado.png"
+    },
+    {
+        "id": 9,
+        "name": "RenewciPlastic Mesa",
+        "price": 200,
+        "image": "IMG_produtos/mesa_vidro_rg.png"
+    },
+    {
+        "id": 10,
+        "name": "Renew Mesa Apoio",
+        "price": 200,
+        "image": "IMG_produtos/mesa_garrafa_redondo.png"
+    },
+    {
+        "id": 11,
+        "name": "WoodCraft Mesa",
+        "price": 200,
+        "image": "IMG_produtos/Mesa_Madeira_P.png"
+    },
+    {
+        "id": 12,
+        "name": "TimberTop Mesa",
+        "price": 200,
+        "image": "IMG_produtos/Mesa_Madeira_P_02.png"
+    },
+    {
+        "id": 13,
+        "name": "RusticWood Mesa",
+        "price": 200,
+        "image": "IMG_produtos/mesa.png"
+    },
+    {
+        "id": 14,
+        "name": "TimberSeating Conjunto",
+        "price": 200,
+        "image": "IMG_produtos/conjunto_01.png"
+    },
+    {
+        "id": 15,
+        "name": "WoodCraft Conjunto",
+        "price": 200,
+        "image": "IMG_produtos/conjunto_02.png"
+    },
+    {
+        "id": 16,
+        "name": "Wooden Chair Ensemble",
+        "price": 250,
+        "image": "IMG_produtos/banco.jpg"
+    }
+]
