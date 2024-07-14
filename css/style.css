@@ -45,6 +45,11 @@ header {
 header {
     display: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .nav-bar {
@@ -232,6 +237,7 @@ svg {
     display: grid;
     grid-template-rows: 70px 1fr 70px;
     transition: .5s;
+    z-index: 1000;
 }
 
 body.showCart .cartTab {
@@ -354,7 +360,7 @@ p {
 }
 
 .box2 p {
-    text-align: justify;
+    /* text-align: justify; */
     width: 50vw;
     margin-left: 25vw;
     padding-bottom: 4vh;
@@ -784,7 +790,17 @@ footer {
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 526px) {
+
+    header {
+        display: center;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
     #footer_content {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
