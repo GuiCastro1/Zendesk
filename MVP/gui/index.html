@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Reussedecor</title>
+</head>
+
+<body>
+    <!--======================== HEADER===================================== -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img href="init" src="./img/icon.png" width="50vw" alt="logo">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#init" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#proj" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#prod" class="nav-link">Produtos</a></li>
+                    <li class="nav-item"><a href="#sob" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                </svg>
+                <span>0</span>
+            </div>
+
+            <div class="login-button">
+                <button><a href="./HTML/Cadastro.html">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#init" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#proj" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#prod" class="nav-link">Produtos</a></li>
+                <li class="nav-item"><a href="#sob" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="./HTML/Cadastro.html">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+    <!--=================================================================== -->
+    <!--======================== MAIN ===================================== -->
+    <main>
+
+
+        <article  class="Historia">
+
+
+            <h2 id="init">História</h2>
+            <p>Um grupo de amigos, Fulano, Beltrano e Cicrano, estudantes de design mobiliário e apaixonados pela
+                natureza, ficou preocupado com o impacto ambiental negativo dos resíduos nos rios Tietê e Pinheiros.
+                Decididos a fazer a diferença, dedicaram meses à pesquisa e desenvolvimento de protótipos, criando uma
+                linha de móveis e decorações sustentáveis com materiais reciclados e processos de fabricação ecológicos
+
+
+            </p>
+
+
+            <div id="proj" class="Carrossel">
+                <div class="conteiner" id="img">
+                    <img src="IMG_produtos/Cadeira _bambu01.png" alt="">
+                    <img src="IMG_produtos/Cadeira _bambu02.png" alt="">
+                    <img src="IMG_produtos/Cadeira _bambu03.png" alt="">
+                    <img src="IMG_produtos/Cadeira _bambu04.png" alt="">
+                    <img src="IMG_produtos/Cadeira_jornal.png" alt="">
+                    <img src="IMG_produtos/Poltona_papel.png" alt="">
+                    <img src="IMG_produtos/Poltrona_papel_2.png" alt="">
+                    <img src="IMG_produtos/Mesa_v_Quadrada.png" alt="">
+                    <img src="IMG_produtos/mesa_vidro_quadrado.png" alt="">
+                    <img src="IMG_produtos/mesa_garrafa_redondo.png" alt="">
+                    <img src="IMG_produtos/mesa_vidro_rg.png" alt="">
+                    <img src="IMG_produtos/mesa.png" alt="">
+                    <img src="IMG_produtos/Mesa_Madeira_P.png" alt="">
+                    <img src="IMG_produtos/Mesa_Madeira_P_02.png" alt="">
+                    <img src="IMG_produtos/conjunto_01.png" alt="">
+                    <img src="IMG_produtos/conjunto_02.png" alt="">
+                </div>
+            </div>
+
+        </article>
+
+
+        <section  class="quemSOMOS">
+
+            <h2 id="prod">Produtos</h2>
+            <p>A Reusedecor colaborando com organizações ambientais, transforma resíduos em produtos duráveis e de alta
+                qualidade. Oferecendo design inovador e responsabilidade ecológica, a Reusedecor se destaca no mercado
+                de móveis sustentáveis, criando espaços vibrantes e lares conscientes.
+            </p>
+            <div class="container">
+                <section>
+                    <div id= "prod"class="title">PRODUCT LIST</div>
+                </section>
+                <div class="listProduct">
+                </div>
+            </div>
+            <div class="cartTab">
+                <h1>Shopping Cart</h1>
+                <div class="listCart">
+                </div>
+                <div class="btn">
+                    <button class="close">CLOSE</button>
+                    <button class="checkOut" onclick="goToCheckout()">Check Out</button>
+                </div>
+            </div>
+            
+        </section>
+
+
+
+        <section id="loc"class="Localiza">
+            <h2 class="teste">loja fisica</h2>
+
+            <img src="IMG/LOGA.jpg" alt="" class="teste1">
+
+            <p class="teste2">
+                Endereço: Rua das Flores, 123 - Centro, São Paulo/SP <br><br> Horário de Funcionamento: Segunda a
+                Sabado, das 9h00 às 18h00
+            </p>
+
+
+
+        </section>
+
+
+        <article>
+            <div id="visa" class="BOX">
+                <div class="BOX1">
+                    <h3>MISSÃO</h3>
+                    <p>Transformar materiais recuperados dos rios em móveis sustentáveis e inovadores, promovendo a
+                        preservação ambiental e a conscientização ecológica para um futuro mais verde.</p>
+                </div>
+                <div class="BOX1">
+                    <h3>VISÃO</h3>
+                    <p>Ser líder no mercado de móveis sustentáveis, reconhecida por design inovador e práticas
+                        ambientais exemplares, inspirando mudanças positivas na indústria e na sociedade.</p>
+                </div>
+                <div class="BOX1">
+                    <h3>VALORES</h3>
+                    <p>Sustentabilidade,<br>
+                        Inovação,<br>
+                        Qualidade,<br>
+                        Responsabilidade Social,<br>
+                        Transparência,<br>
+                        Colaboração e <br>
+                        Respeitos.
+                    </p>
+                </div>
+
+            </div>
+        </article>
+
+
+        <section id="o">
+            <h2 id="sob">ODS</h2>
+            <div>
+                <figure>
+                    <img src="img/ods image 1.png" alt="">
+                </figure>
+                <p>ODS 11 - Cidades e Comunidades Sustentáveis: Promover cidades inclusivas, seguras, resilientes e
+                    sustentáveis. Isso envolve melhorar a urbanização, aumentar a participação da comunidade e reduzir o
+                    impacto ambiental das cidades.</p>
+            </div>
+            <div>
+                <figure>
+                    <img src="img/ods image 1 (1).png" alt="">
+                </figure>
+                <p>ODS 12 - Consumo e Produção Responsáveis: Garantir padrões de consumo e produção sustentáveis. Isso
+                    inclui a gestão eficiente dos recursos naturais, redução de desperdícios e promoção da reciclagem e
+                    reutilização de materiais.</p>
+            </div>
+            <div>
+                <figure>
+                    <img src="img/ods image 1 (2).png" alt="">
+                </figure>
+                <p>ODS 14 - Vida na Água: Conservar e usar de forma sustentável os oceanos, mares e recursos marinhos.
+                    Isso envolve reduzir a poluição marinha, proteger ecossistemas aquáticos e promover a pesca
+                    sustentável.
+                </p>
+            </div>
+        </section>
+
+    </main>
+    <!--========================================================================= -->
+    <!--========================   FOOTER   ===================================== -->
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <div class="logofo">
+                    <img  src="./img/iconho.png" width="80vw" alt="logo">
+                    <p>REUSEDECOR</p>
+                </div>
+
+                <div id="footer_social_media">
+
+                    <a href="https://www.instagram.com/" target="_blank" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.whatsapp.com/" target="_blank" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <h3>Sobre Nós</h3>
+                </li>
+                <li>
+                    <a href="#init" class="footer-link">Historia</a>
+                </li>
+                <li>
+                    <a href="#proj" class="footer-link">Projeto</a>
+                </li>
+                <li>
+                    <a href="#visa" class="footer-link">Visão</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Produtos</h3>
+                </li>
+                <li>
+                    <a href="#prod" class="footer-link">Cadeira</a>
+                </li>
+                <li>
+                    <a href="#prod" class="footer-link">Mesa</a>
+                </li>
+                <li>
+                    <a href="#loc" class="footer-link">Localização</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Se inscreva!</h3>
+
+                <p>
+                    Digite seu e-mail e seja notificado sobre nossas novidades.
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="footer_copyright">
+            &#169
+            2024 Projeto Zendesk.
+        </div>
+    </footer>
+
+    <!--======================================================================== -->
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name":" Cadeira de bambu da China",
+        "price": 200,
+        "image": "IMG_produtos/Cadeira _bambu01.png"
+    },
+    {
+        "id": 2,
+        "name":" Cadeira de bambu do irã",
+        "price": 250,
+        "image": "IMG_produtos/Cadeira _bambu02.png"
+    },
+    {
+        "id": 3,
+        "name":" Cadeira de bambu da India",
+        "price": 290,
+        "image": "IMG_produtos/Cadeira _bambu03.png"
+    },
+    {
+        "id": 4,
+        "name":" Cadeira de bambu do Imalaia",
+        "price": 200,
+        "image": "IMG_produtos/Cadeira  _bambu04.png"
+    },
+    {
+        "id": 5,
+        "name":"Cadeira de Jornal reciclado",
+        "price": 210,
+        "image": "IMG_produtos/Cadeira_jornal.png"
+    },
+    {
+        "id": 6,
+        "name":" Poltrona de Jornal reciclado",
+        "price": 100,
+        "image": "IMG_produtos/Poltona_papel.png"
+    },
+    {
+        "id": 7,
+        "name":" Poltrona de Jornal reciclado",
+        "price": 200,
+        "image": "IMG_produtos/Poltrona_papel_2.png"
+    },
+    {
+        "id": 8,
+        "name":"Mesas de Garrafas reutilizaveis",
+        "price": 200,
+        "image": "IMG_produtos/Mesa_v_Quadrada.png"
+    },
+    {
+        "id": 9,
+        "name":"Mesas de Garrafas reutilizaveis",
+        "price": 200,
+        "image": "IMG_produtos/mesa_vidro_quadrado.png"
+    },
+    {
+        "id": 10,
+        "name":"Mesas de Garrafas reutilizaveis",
+        "price": 200,
+        "image": "IMG_produtos/mesa_vidro_rg.png"
+    },
+    {
+        "id": 11,
+        "name":"Mesas de Garrafas reutilizaveis",
+        "price": 200,
+        "image": "IMG_produtos/mesa_garrafa_redondo.png"
+    },
+    {
+        "id": 12,
+        "name":" Mesa de Madeira Japonesa",
+        "price": 200,
+        "image": "IMG_produtos/Mesa_Madeira_P.png"
+    },
+    {
+        "id": 13,
+        "name":" Mesa de Madeira chilena",
+        "price": 200,
+        "image": "IMG_produtos/Mesa_Madeira_P_02.png"
+    },
+    {
+        "id": 14,
+        "name":" Mesa de Madeira nordestina",
+        "price": 200,
+        "image": "IMG_produtos/mesa.png"
+    },
+    {
+        "id": 15,
+        "name":" Conjunto moveis reciclados",
+        "price": 200,
+        "image": "IMG_produtos/conjunto_01.png"
+    },
+    {
+        "id": 16,
+        "name":" Conjunto moveis reciclados",
+        "price": 200,
+        "image": "IMG_produtos/conjunto_02.png"
+    }
+
+]
